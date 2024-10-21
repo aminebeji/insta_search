@@ -1,0 +1,27 @@
+.user_list_container {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.user_card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 1em;
+    text-align: center;
+    min-width: 250px;
+}
+
+.user_card_name {
+    justify-content: center;
+}
+
+.user_card_info {
+    font-size: 12px;
+    align-items: center;
+    justify-content: space-between;
+    color: #707070;
+}
